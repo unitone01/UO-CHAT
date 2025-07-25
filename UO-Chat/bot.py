@@ -10,7 +10,7 @@ load_dotenv()
 
 DISCORD_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
-ALLOWED_CHANNEL = os.getenv("ALLOWED_CHANNEL")
+#ALLOWED_CHANNEL = os.getenv("ALLOWED_CHANNEL")
 
 # Setup Cohere
 co = cohere.Client(COHERE_API_KEY)
