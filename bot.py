@@ -8,6 +8,7 @@ from threading import Thread
 # Load environment variables
 load_dotenv()
 
+TOKEN = os.getenv("DISCORD_TOKEN")
 DISCORD_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 #ALLOWED_CHANNEL = os.getenv("ALLOWED_CHANNEL")
